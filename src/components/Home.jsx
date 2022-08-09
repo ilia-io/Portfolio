@@ -1,15 +1,15 @@
 import { HiArrowNarrowRight } from 'react-icons/hi';
 function Home() {
   return (
-    <div name="home" className="w-full h-screen bg-[#0a192f]">
+    <div name="home" className="w-full mb-[25vh] bg-[#0a192f]">
       {/* Container */}
-      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full lg:ml-14">
-        <p className="text-pink-600">Hi, my name is</p>
+      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
+        <p className="text-pink-600 mt-[50vh]">👋 Hi, my name is</p>
         <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
-          Clint Briley
+          Ilia
         </h1>
         <h2 className="text-4xl sm:text-7-xl font-bold text-[#8892b0]">
-          I'm a Full Stack Developer
+          I'm a Frontend Developer
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
