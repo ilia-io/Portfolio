@@ -1,4 +1,4 @@
-function Projects({ title, imageUrl }) {
+function Projects({ title, imageUrl, linkDemo, linkCode }) {
   return (
     <div
       style={{ backgroundImage: `url(${imageUrl})` }}
@@ -10,12 +10,12 @@ function Projects({ title, imageUrl }) {
           {title}
         </span>
         <div className="pt-8 text-center">
-          <a href="/">
+          <a target="blank" href={linkDemo}>
             <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
               Demo
             </button>
           </a>
-          <a href="/">
+          <a target="blank" href={linkCode}>
             <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
               Code
             </button>
