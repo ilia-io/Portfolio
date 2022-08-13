@@ -53,13 +53,12 @@ function Contact() {
             Let's Collaborate
           </button>
         </form>
-        <div className="flex justify-center items-center mt-12 px-24 py-4">
+        <div className="flex justify-center items-center px-24 mb-24">
           <button onClick={() => scroll.scrollToBottom()}>
-            {/* <IoIosArrowDown size={80} color="#ccd6f6" /> */}
-            <div className="arrow">
-              <span></span>
-              <span></span>
-              <span></span>
+            <div className="arrow bounce">
+              <div className="fa fa-arrow-down fa-2x">
+                <IoIosArrowDown size={80} color="#ccd6f6" />
+              </div>
             </div>
           </button>
         </div>

@@ -3,6 +3,7 @@ import { HiArrowNarrowRight } from 'react-icons/hi';
 import { Link } from 'react-scroll';
 
 import { Slide } from 'react-awesome-reveal';
+import AnimatedBackground from './AnimatedBackground/AnimatedBackground';
 
 function Home() {
   const [nav, setNav] = useState(false);
@@ -41,6 +42,7 @@ function Home() {
           </div>
         </Slide>
       </div>
+      <AnimatedBackground />
     </div>
   );
 }

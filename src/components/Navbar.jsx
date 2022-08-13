@@ -1,5 +1,5 @@
 import Logo from '../assets/logo.png';
-import { FaBars, FaTimes, FaGithub} from 'react-icons/fa';
+import { FaBars, FaTimes, FaGithub } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { useState } from 'react';
@@ -39,7 +39,7 @@ function Navbar() {
               spy={true}
               smooth={true}
               duration={500}
-              offset={-18}
+              offset={-17}
             >
               Skills
             </Link>
