@@ -1,10 +1,22 @@
+import * as Scroll from 'react-scroll';
+import {
+  Link,
+  Button,
+  Element,
+  Events,
+  animateScroll as scroll,
+  scrollSpy,
+  scroller,
+} from 'react-scroll';
+import { IoIosArrowDown } from 'react-icons/io';
+
 function Contact() {
   return (
     <>
       <div className="p-12 bg-[#0a192f]"></div>
       <div
         name="contact"
-        className="w-full h-screen px-4 py-[100px] bg-[#0a192f] flex justify-center items-center"
+        className="w-full h-screen px-4 pt-[100px] bg-[#0a192f] flex flex-col justify-center items-center"
       >
         <form
           // action="https://getform.io/f/56e79c19-4b56-488d-b7b7-6bc2d14478a9"
@@ -41,6 +53,16 @@ function Contact() {
             Let's Collaborate
           </button>
         </form>
+        <div className="flex justify-center items-center mt-12 px-24 py-4">
+          <button onClick={() => scroll.scrollToBottom()}>
+            {/* <IoIosArrowDown size={80} color="#ccd6f6" /> */}
+            <div className="arrow">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </button>
+        </div>
       </div>
     </>
   );
