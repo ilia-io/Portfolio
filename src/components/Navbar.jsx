@@ -7,13 +7,14 @@ import { Link } from 'react-scroll';
 import { SiHabr } from 'react-icons/si';
 
 import { Zoom } from 'react-awesome-reveal';
+import { IconContext } from 'react-icons';
 
 function Navbar() {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 text-2xl">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 text-2xl z-50">
       <div>
         <img style={{ width: '50px' }} src={Logo} alt="Logo" />
       </div>
@@ -38,7 +39,7 @@ function Navbar() {
               spy={true}
               smooth={true}
               duration={500}
-              offset={-20}
+              offset={-18}
             >
               Skills
             </Link>
@@ -62,7 +63,7 @@ function Navbar() {
               spy={true}
               smooth={true}
               duration={500}
-              offset={-23}
+              offset={-22}
             >
               Contact
             </Link>
