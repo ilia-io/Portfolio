@@ -1,7 +1,31 @@
 import Pizza from '../assets/pizza-scr2.png';
-import Projects from './Projects';
+import Project from './Project';
 
 const projects = [
+  {
+    title: 'Pizza order App',
+    imageUrl: Pizza,
+    linkDemo: 'https://pizza-ilia-io.vercel.app/',
+    linkCode: 'https://github.com/ilia-io/pizza',
+  },
+  {
+    title: 'Pizza order App',
+    imageUrl: Pizza,
+    linkDemo: 'https://pizza-ilia-io.vercel.app/',
+    linkCode: 'https://github.com/ilia-io/pizza',
+  },
+  {
+    title: 'Pizza order App',
+    imageUrl: Pizza,
+    linkDemo: 'https://pizza-ilia-io.vercel.app/',
+    linkCode: 'https://github.com/ilia-io/pizza',
+  },
+  {
+    title: 'Pizza order App',
+    imageUrl: Pizza,
+    linkDemo: 'https://pizza-ilia-io.vercel.app/',
+    linkCode: 'https://github.com/ilia-io/pizza',
+  },
   {
     title: 'Pizza order App',
     imageUrl: Pizza,
@@ -28,8 +52,8 @@ function Work() {
           {/* container */}
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
             {/* grid item */}
-            {projects.map((project, index) => (
-              <Projects key={index} {...project} />
+            {projects.map((item, index) => (
+              <Project key={index} {...item} />
             ))}
           </div>
         </div>

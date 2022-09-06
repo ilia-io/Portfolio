@@ -1,13 +1,9 @@
 import Logo from '../assets/logo.png';
-import { FaBars, FaTimes, FaGithub } from 'react-icons/fa';
-import { HiOutlineMail } from 'react-icons/hi';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { FaBars, FaTimes, FaGithub, FaTelegram } from 'react-icons/fa';
 import { useState } from 'react';
 import { Link } from 'react-scroll';
 import { SiHabr } from 'react-icons/si';
-
 import { Zoom } from 'react-awesome-reveal';
-import { IconContext } from 'react-icons';
 
 function Navbar() {
   const [nav, setNav] = useState(false);
@@ -108,18 +104,29 @@ function Navbar() {
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6274BC]">
             <a
-              className="flex justify-between items-center w-full text-gray-100"
-              href="/"
+              className="flex justify-between items-center w-full text-gray-100 text-sm"
+              href="https://career.habr.com/ilia-io"
+              target="blank"
             >
               Habr career <SiHabr size={33} />
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#222]">
             <a
-              className="flex justify-between items-center w-full text-gray-200"
-              href="/"
+              className="flex justify-between items-center w-full text-gray-200 text-sm"
+              href="https://github.com/ilia-io"
+              target="blank"
             >
               GitHub <FaGithub size={30} />
+            </a>
+          </li>
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#3390EC]">
+            <a
+              className="flex justify-between items-center w-full text-gray-200 text-sm"
+              href="https://t.me/ilia"
+              target="blank"
+            >
+              Telegram <FaTelegram size={30} />
             </a>
           </li>
         </ul>

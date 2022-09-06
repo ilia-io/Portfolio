@@ -1,4 +1,4 @@
-function Projects({ title, imageUrl, linkDemo, linkCode }) {
+function Project({ title, imageUrl, linkDemo, linkCode }) {
   return (
     <div
       style={{ backgroundImage: `url(${imageUrl})` }}
@@ -26,4 +26,4 @@ function Projects({ title, imageUrl, linkDemo, linkCode }) {
   );
 }
 
-export default Projects;
+export default Project;

@@ -13,9 +13,15 @@ function Footer() {
         }}
       >
         <div className="flex justify-between items-center p-4 min-w-[220px] ">
-          <FaTelegram />
-          <FaGithub />
-          <SiHabr />
+          <a href="https://t.me/ilia" target="blank">
+            <FaTelegram />
+          </a>
+          <a href="https://github.com/ilia-io" target="blank">
+            <FaGithub />
+          </a>
+          <a href="https://career.habr.com/ilia-io" target="blank">
+            <SiHabr />
+          </a>
         </div>
       </IconContext.Provider>
       <p className="p-4 pb-8">© 2022</p>

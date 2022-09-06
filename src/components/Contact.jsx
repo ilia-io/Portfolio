@@ -1,13 +1,4 @@
-import * as Scroll from 'react-scroll';
-import {
-  Link,
-  Button,
-  Element,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
-  scroller,
-} from 'react-scroll';
+import { animateScroll as scroll } from 'react-scroll';
 import { IoIosArrowDown } from 'react-icons/io';
 
 function Contact() {
@@ -19,8 +10,8 @@ function Contact() {
         className="w-full h-screen px-4 pt-[100px] bg-[#0a192f] flex flex-col justify-center items-center"
       >
         <form
-          // action="https://getform.io/f/56e79c19-4b56-488d-b7b7-6bc2d14478a9"
-          // method="POST"
+          action="https://getform.io/f/56e79c19-4b56-488d-b7b7-6bc2d14478a9"
+          method="POST"
           className="flex flex-col max-w-[600px] w-full"
         >
           <div className="pb-8">
