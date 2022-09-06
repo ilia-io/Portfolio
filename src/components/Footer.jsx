@@ -24,7 +24,7 @@ function Footer() {
           </a>
         </div>
       </IconContext.Provider>
-      <p className="p-4 pb-8">© 2022</p>
+      <p className="p-4">© 2022</p>
     </div>
   );
 }

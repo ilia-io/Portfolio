@@ -1,21 +1,13 @@
-import { useState } from 'react';
-import { Link } from 'react-scroll';
 import { Slide } from 'react-awesome-reveal';
 import AnimatedBackground from './AnimatedBackground/AnimatedBackground';
 import ButtonViewWork from './ButtonViewWork';
 
 function Home() {
-  const [nav, setNav] = useState(false);
-  const handleClick = () => setNav(!nav);
-
   return (
     <>
-      <div
-        name="home"
-        className="w-full h-screen py-[10vh] sm:pt-[10vh] bg-[#0a192f]"
-      >
+      <div name="home" className="w-full h-screen py-8 bg-[#0a192f]">
         {/* Container */}
-        <div className="max-w-[1000px] py-[20vh] mx-auto px-8 flex flex-col justify-center h-full">
+        <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
           <Slide cascade duration={400} triggerOnce>
             {' '}
             <p className="text-[#F4C324] text-xl">👋 Hello, my name is</p>
@@ -26,12 +18,6 @@ function Home() {
               I'm a Frontend Developer
             </h2>
             <p className="text-[#8892b0] py-4 max-w-[700px]"></p>
-            <Link
-              onClick={handleClick}
-              to="work"
-              smooth={true}
-              duration={500}
-            ></Link>
           </Slide>
         </div>
       </div>

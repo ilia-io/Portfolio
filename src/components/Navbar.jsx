@@ -11,9 +11,22 @@ function Navbar() {
 
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 text-2xl z-50">
-      <div>
-        <img style={{ width: '50px' }} src={Logo} alt="Logo" />
-      </div>
+      <Link
+        to="home"
+        activeClass="textGradient"
+        spy={true}
+        smooth={true}
+        duration={500}
+      >
+        <div>
+          <img
+            style={{ width: '50px', cursor: 'pointer' }}
+            src={Logo}
+            alt="Logo"
+          />
+        </div>
+      </Link>
+
       {/* menu */}
       <Zoom duration={700} triggerOnce>
         <ul className="hidden md:flex w-[500px] justify-around">
@@ -35,7 +48,7 @@ function Navbar() {
               spy={true}
               smooth={true}
               duration={500}
-              offset={-17}
+              offset={-35}
             >
               Skills
             </Link>
@@ -47,7 +60,7 @@ function Navbar() {
               spy={true}
               smooth={true}
               duration={500}
-              offset={50}
+              offset={-25}
             >
               Work
             </Link>
@@ -59,7 +72,7 @@ function Navbar() {
               spy={true}
               smooth={true}
               duration={500}
-              offset={-22}
+              offset={-40}
             >
               Contact
             </Link>

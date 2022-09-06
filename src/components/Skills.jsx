@@ -8,14 +8,7 @@ import Redux from '../assets/redux1.png';
 import Responsive from '../assets/resp3.png';
 import Git from '../assets/git1.png';
 
-import {
-  Fade,
-  Bounce,
-  Flip,
-  JackInTheBox,
-  Roll,
-  Zoom,
-} from 'react-awesome-reveal';
+import { JackInTheBox } from 'react-awesome-reveal';
 
 const icons = [
   {
@@ -54,32 +47,29 @@ const icons = [
 
 function Skills() {
   return (
-    <>
-      <div className="p-8 bg-[#0a192f]"></div>
-      <div
-        name="skills"
-        className="w-full h-screen py-[100px] bg-[#0a192f] text-gray-300 "
-      >
-        {/* container */}
+    <div
+      name="skills"
+      className="w-full h-full py-8 my-20 bg-[#0a192f] text-gray-300 "
+    >
+      {/* container */}
 
-        <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-          <div>
-            <p className="text-4xl font-bold inline border-b-4 border-[#F4C324]">
-              Skills
-            </p>
-            <p className="py-10">These are the technologies I've worked with</p>
-          </div>
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+        <div>
+          <p className="text-4xl font-bold inline border-b-4 border-[#F4C324]">
+            Skills
+          </p>
+          <p className="py-10">These are the technologies I've worked with</p>
+        </div>
 
-          <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
-            {icons.map((icon, index) => (
-              <JackInTheBox fraction="0.9" duration={700} triggerOnce>
-                <Icons {...icon} key={index} />
-              </JackInTheBox>
-            ))}
-          </div>
+        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
+          {icons.map((icon, index) => (
+            <JackInTheBox fraction="0.9" duration={700} triggerOnce>
+              <Icons {...icon} key={index} />
+            </JackInTheBox>
+          ))}
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
