@@ -2,7 +2,7 @@ import styles from './AnimatedBackground.module.css';
 
 function AnimatedBackground() {
   return (
-    <div>
+    <>
       <ul className={styles.circles}>
         <li></li>
         <li></li>
@@ -15,7 +15,7 @@ function AnimatedBackground() {
         <li></li>
         <li></li>
       </ul>
-    </div>
+    </>
   );
 }
 

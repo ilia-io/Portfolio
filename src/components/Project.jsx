@@ -6,17 +6,17 @@ function Project({ title, imageUrl, linkDemo, linkCode }) {
     >
       {/* hover effects */}
       <div className="opacity-0 group-hover:opacity-100 ">
-        <span className="text-2xl font-bold text-white tracking-wider">
+        <p className="text-xl text-center font-bold text-white tracking-wider">
           {title}
-        </span>
+        </p>
         <div className="pt-8 text-center">
           <a target="blank" href={linkDemo}>
-            <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
+            <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#F4C324] hover:text-gray-900 transition">
               Demo
             </button>
           </a>
           <a target="blank" href={linkCode}>
-            <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
+            <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#F4C324] hover:text-gray-900 transition">
               Code
             </button>
           </a>
