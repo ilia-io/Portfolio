@@ -1,36 +1,40 @@
-import Pizza from '../assets/pizza-scr2.png';
+import Pizza from '../assets/cover-pizza.png';
+import Gallery from '../assets/cover-gallery.png';
+import Quiz from '../assets/cover-quiz.png';
+import Invites from '../assets/cover-invites.png';
+import Dashboard from '../assets/cover-dashboard.png';
 import Project from './Project';
 
 const projects = [
   {
-    title: 'Pizza order App',
+    title: 'Pizza Order App',
     imageUrl: Pizza,
     linkDemo: 'https://pizza-ilia-io.vercel.app/',
     linkCode: 'https://github.com/ilia-io/pizza',
   },
   {
-    title: 'Pizza order App',
-    imageUrl: Pizza,
-    linkDemo: 'https://pizza-ilia-io.vercel.app/',
-    linkCode: 'https://github.com/ilia-io/pizza',
+    title: 'Image Gallery App',
+    imageUrl: Gallery,
+    linkDemo: 'https://image-gallery-zeta-three.vercel.app/',
+    linkCode: 'https://github.com/ilia-io/image-gallery',
   },
   {
-    title: 'Pizza order App',
-    imageUrl: Pizza,
-    linkDemo: 'https://pizza-ilia-io.vercel.app/',
-    linkCode: 'https://github.com/ilia-io/pizza',
+    title: 'Quiz App',
+    imageUrl: Quiz,
+    linkDemo: 'https://quiz-khaki-three.vercel.app/',
+    linkCode: 'https://github.com/ilia-io/quiz',
   },
   {
-    title: 'Pizza order App',
-    imageUrl: Pizza,
-    linkDemo: 'https://pizza-ilia-io.vercel.app/',
-    linkCode: 'https://github.com/ilia-io/pizza',
+    title: 'User-Invites App',
+    imageUrl: Invites,
+    linkDemo: 'https://invites-rosy.vercel.app/',
+    linkCode: 'https://github.com/ilia-io/invites',
   },
   {
-    title: 'Pizza order App',
-    imageUrl: Pizza,
-    linkDemo: 'https://pizza-ilia-io.vercel.app/',
-    linkCode: 'https://github.com/ilia-io/pizza',
+    title: 'Admin Dashboard App',
+    imageUrl: Dashboard,
+    linkDemo: 'https://dashboard-red-tau.vercel.app/',
+    linkCode: 'https://github.com/ilia-io/dashboard',
   },
 ];
 
