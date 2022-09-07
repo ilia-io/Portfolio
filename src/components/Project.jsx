@@ -10,12 +10,12 @@ function Project({ title, imageUrl, linkDemo, linkCode }) {
           {title}
         </p>
         <div className="pt-4 text-center">
-          <a target="_blank" href={linkDemo}>
+          <a target="_blank" rel="noreferrer" href={linkDemo}>
             <button className="text-center rounded-lg px-4 py-2 m-2 md:bg-white md:text-gray-700 font-bold text-lg md:hover:bg-[#F4C324] md:hover:text-gray-900 transition bg-gray-800 text-gray-100">
               Demo
             </button>
           </a>
-          <a target="_blank" href={linkCode}>
+          <a target="_blank" rel="noreferrer" href={linkCode}>
             <button className="text-center rounded-lg px-4 py-2 m-2 md:bg-white md:text-gray-700 font-bold text-lg md:hover:bg-[#F4C324] md:hover:text-gray-900 transition bg-gray-800 text-gray-100">
               Code
             </button>

@@ -120,6 +120,7 @@ function Navbar() {
               className="flex justify-between items-center w-full text-gray-100 text-sm"
               href="https://career.habr.com/ilia-io"
               target="_blank"
+              rel="noreferrer"
             >
               Habr career <SiHabr size={33} />
             </a>
@@ -129,6 +130,7 @@ function Navbar() {
               className="flex justify-between items-center w-full text-gray-200 text-sm"
               href="https://github.com/ilia-io"
               target="_blank"
+              rel="noreferrer"
             >
               GitHub <FaGithub size={30} />
             </a>
@@ -138,6 +140,7 @@ function Navbar() {
               className="flex justify-between items-center w-full text-gray-200 text-sm"
               href="https://t.me/ilia_i0"
               target="_blank"
+              rel="noreferrer"
             >
               Telegram <FaTelegram size={30} />
             </a>

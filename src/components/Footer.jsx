@@ -13,13 +13,17 @@ function Footer() {
         }}
       >
         <div className="flex justify-between items-center p-4 min-w-[220px] ">
-          <a href="https://t.me/ilia_i0" target="_blank">
+          <a href="https://t.me/ilia_i0" target="_blank" rel="noreferrer">
             <FaTelegram />
           </a>
-          <a href="https://github.com/ilia-io" target="_blank">
+          <a href="https://github.com/ilia-io" target="_blank" rel="noreferrer">
             <FaGithub />
           </a>
-          <a href="https://career.habr.com/ilia-io" target="_blank">
+          <a
+            href="https://career.habr.com/ilia-io"
+            target="_blank"
+            rel="noreferrer"
+          >
             <SiHabr />
           </a>
         </div>
