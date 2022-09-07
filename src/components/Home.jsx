@@ -1,6 +1,5 @@
 import { Slide } from 'react-awesome-reveal';
 import AnimatedBackground from './AnimatedBackground/AnimatedBackground';
-import ButtonViewWork from './ButtonViewWork';
 
 function Home() {
   return (

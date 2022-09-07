@@ -119,7 +119,7 @@ function Navbar() {
             <a
               className="flex justify-between items-center w-full text-gray-100 text-sm"
               href="https://career.habr.com/ilia-io"
-              target="blank"
+              target="_blank"
             >
               Habr career <SiHabr size={33} />
             </a>
@@ -128,7 +128,7 @@ function Navbar() {
             <a
               className="flex justify-between items-center w-full text-gray-200 text-sm"
               href="https://github.com/ilia-io"
-              target="blank"
+              target="_blank"
             >
               GitHub <FaGithub size={30} />
             </a>
@@ -136,8 +136,8 @@ function Navbar() {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#3390EC]">
             <a
               className="flex justify-between items-center w-full text-gray-200 text-sm"
-              href="https://t.me/ilia"
-              target="blank"
+              href="https://t.me/ilia_i0"
+              target="_blank"
             >
               Telegram <FaTelegram size={30} />
             </a>

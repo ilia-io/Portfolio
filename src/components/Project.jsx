@@ -5,18 +5,18 @@ function Project({ title, imageUrl, linkDemo, linkCode }) {
       className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
     >
       {/* hover effects */}
-      <div className="opacity-0 group-hover:opacity-100 ">
-        <p className="text-xl text-center font-bold text-white tracking-wider">
+      <div className="md:opacity-0 group-hover:opacity-100 group-active:opacity-100">
+        <p className="text-xl text-center p-1 rounded-lg font-extrabold bg-gray-800 text-gray-100 md:bg-white md:text-gray-700 tracking-wider">
           {title}
         </p>
-        <div className="pt-8 text-center">
-          <a target="blank" href={linkDemo}>
-            <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#F4C324] hover:text-gray-900 transition">
+        <div className="pt-4 text-center">
+          <a target="_blank" href={linkDemo}>
+            <button className="text-center rounded-lg px-4 py-2 m-2 md:bg-white md:text-gray-700 font-bold text-lg md:hover:bg-[#F4C324] md:hover:text-gray-900 transition bg-gray-800 text-gray-100">
               Demo
             </button>
           </a>
-          <a target="blank" href={linkCode}>
-            <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#F4C324] hover:text-gray-900 transition">
+          <a target="_blank" href={linkCode}>
+            <button className="text-center rounded-lg px-4 py-2 m-2 md:bg-white md:text-gray-700 font-bold text-lg md:hover:bg-[#F4C324] md:hover:text-gray-900 transition bg-gray-800 text-gray-100">
               Code
             </button>
           </a>
